@@ -1,0 +1,344 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+#topbar
+{
+background-color:black;
+height:7px;
+width:100%;
+}
+#header
+{
+background-color:#19b51f;
+height:120px;
+width:100%;
+}
+#header img
+{
+height:120px;
+width:15%;
+}
+#header h1
+{
+color:white;
+display:inline;
+position: absolute;
+margin-top: 16px;
+font-size:85px;
+}
+#full
+{
+background-color:#f0f0f5;
+}
+
+#menubar
+{ 
+height:33px;
+width:100%;
+
+}
+#menubar ul li
+{ 
+display:inline;
+margin-right:50px;
+} 
+#back:hover
+{
+color:red;
+}
+#menubar ul li a
+{
+font-weight:bold;
+text-decoration:none;
+font-size:25px;
+}
+#counter
+{
+position:absolute;
+font-size:20px;
+font-weight:bold;
+border-radius:50%;
+background-color:#4d0099;
+color:white;
+display:inline;
+align-text:center;
+}
+#back span:not(.animated-counter)
+{
+display:none;
+}
+#back span animated-counter
+{
+animation:count.4s easy-in-out;
+}
+#space
+{
+height:18px;
+width:100%;
+}
+
+#pic1
+{
+width:32%;
+height:300px;
+float:left;
+margin-right:2%;
+}
+#pic2
+{
+width:32%;
+height:300px;
+float:left;
+}
+#pic3
+{
+width:32%;
+height:300px;
+float:right;
+}
+#pic4
+{
+width:32%;
+height:300px;
+float:left;
+margin-right:2%;
+margin-top:30px;
+}
+#pic5
+{
+width:32%;
+height:300px;
+float:left;
+margin-top:30px;
+}
+#pic6
+{
+width:32%;
+height:300px;
+float:right;
+margin-top:30px;
+}
+#pic7
+{
+width:32%;
+height:300px;
+float:left;
+margin-right:2%;
+margin-top:30px;
+}
+#pic8
+{
+width:32%;
+height:300px;
+float:left;
+margin-top:30px;
+}
+#pic9
+{
+width:32%;
+height:300px;
+float:right;;
+margin-top:30px;
+}
+#pic1 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+ }
+#pic1 :hover img
+{
+  transform: scale(1.12);
+}
+#pic2 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic2 :hover img
+{
+  transform: scale(1.12);
+}
+#pic3 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic3 :hover img
+{
+  transform: scale(1.12);
+}
+#pic4 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic4 :hover img
+{
+  transform: scale(1.12);
+}
+#pic5 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic5 :hover img
+{
+  transform: scale(1.12);
+}
+#pic6 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic6 :hover img
+{
+  transform: scale(1.12);
+}
+#pic7 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic7 :hover img
+{
+  transform: scale(1.12);
+}
+#pic8 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic8 :hover img
+{
+  transform: scale(1.12);
+}
+#pic9 img
+{
+width:100%;
+height:300px;
+transform-origin: 0% 10%;
+transition: transform 5s, filter 3s ease-in-out;
+}
+#pic9 :hover img
+{
+  transform: scale(1.12);
+}
+#copyright
+{
+width:100%;
+height:50px;
+background-color:#00cc00;
+clear:both;
+}
+#copyright h3
+{
+float:right;
+margin-right:5px;
+}
+#come
+{
+font-size:30px;
+height:450px;
+width:50%;
+margin:0 auto;
+}
+#come ion-icon
+{
+color:green;
+}
+#c
+{
+color:black;
+font-weight:bold;
+text-decoration:none;
+}
+#c:hover
+{
+color:red;
+}
+#pic img
+{
+height:280px;
+width:30%;
+float:left;
+}
+#cal
+{
+height:330px;
+width:69%;
+float:right;
+}
+#type
+{
+width:100%;
+height:100px;
+float:left;
+
+}
+#kg
+{
+width:100%;
+height:100px;
+float:right;
+}
+#vari
+{
+font-size:35px;
+width:90%;
+}
+#order
+{
+font-size:35px;
+}
+#order1
+{
+font-size:35px;
+}
+input[type=text], input[type=password]
+ {
+  display: inline-block;
+  border: none;
+height:30px;
+width:25%;
+font-size:25px;
+  background: #c5c9c6;
+}
+#sign
+{
+font-size:30px;
+}
+#registerbtn
+ {
+ background-color: #04AA6D;
+  color: white;
+ height:35px;
+  font-size:25px;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+}
+#registerbtn:hover {
+  opacity:5;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;}
+
